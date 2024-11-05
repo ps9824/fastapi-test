@@ -7,6 +7,4 @@ services:
       - "8000:8000"
     volumes:
       - ./app/data:/app/app/data  # Bind mount to persist data
-    environment:
-      - DATA_PATH=/app/app/data  # Optional, specify data path
     restart: always  # Optional, restarts the container on failure
