@@ -20,15 +20,15 @@ This project is a simple FastAPI application with Docker support. It uses a JSON
 project_root/
 │
 ├── app/
-│   ├── main.py           # Entry point for FastAPI application
-│   ├── schema.py         # Defines data schemas and models
-│   ├── services.py       # Handles business logic and data operations
+│   ├── main.py
+│   ├── schema.py
+│   ├── services.py
 │   └── data/
-│       └── data.json     # JSON file for data persistence
+│       └── data.json
 │
-├── Dockerfile            # Docker setup for the FastAPI application
-├── docker-compose.yml    # Docker Compose configuration
-└── README.md   
+├── Dockerfile
+├── docker-compose.yml
+└── README.md
 
 ## Installation
 To run this project locally, ensure you have the following installed:
