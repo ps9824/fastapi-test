@@ -17,16 +17,18 @@ This project is a simple FastAPI application with Docker support. It uses a JSON
 * Docker Compose for managing multi-container setups
 
 ## Project Structure
-![](C:\Users\Sanket\Downloads\screenshots)
-
-
-
-
-
-
-
-
-
+project_root/
+│
+├── app/
+│   ├── main.py           # Entry point for FastAPI application
+│   ├── schema.py         # Defines data schemas and models
+│   ├── services.py       # Handles business logic and data operations
+│   └── data/
+│       └── data.json     # JSON file for data persistence
+│
+├── Dockerfile            # Docker setup for the FastAPI application
+├── docker-compose.yml    # Docker Compose configuration
+└── README.md   
 
 ## Installation
 To run this project locally, ensure you have the following installed:
