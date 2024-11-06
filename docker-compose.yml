@@ -6,5 +6,5 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./app/data:/app/app/data  # Bind mount to persist data
-    restart: always  # Optional, restarts the container on failure
+      - ./app/data:/app/app/data 
+    restart: always 
