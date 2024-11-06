@@ -17,7 +17,7 @@ This project is a simple FastAPI application with Docker support. It uses a JSON
 * Docker Compose for managing multi-container setups
 
 ## Project Structure
-'''
+'
 project_root/
 │
 ├── app/
@@ -29,4 +29,4 @@ project_root/
 ├── Dockerfile            # Docker setup for the FastAPI application
 ├── docker-compose.yml    # Docker Compose configuration
 └── README.md             # Project documentation
-'''
+'
