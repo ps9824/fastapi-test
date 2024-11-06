@@ -17,7 +17,6 @@ This project is a simple FastAPI application with Docker support. It uses a JSON
 * Docker Compose for managing multi-container setups
 
 ## Project Structure
-
 project_root/
 │
 ├── app/
@@ -30,6 +29,7 @@ project_root/
 ├── Dockerfile            # Docker setup for the FastAPI application
 ├── docker-compose.yml    # Docker Compose configuration
 └── README.md             # Project documentation
+
 
 ## Installation
 To run this project locally, ensure you have the following installed:
@@ -70,10 +70,8 @@ Once running, the FastAPI application is accessible at http://localhost:8000.
 ## API Endpoints
 |Method|Endpoint|Description|      
 |----|-----|-------|      
-|Get|/|Returns a hello message|
-|----|-----|-------|      
-|Get|/users|Returns list of users stored in JSON file|
-|----|-----|-------|      
+|Get|/|Returns a hello message|     
+|Get|/users|Returns list of users stored in JSON file|      
 |Post|/users|Accepts and stores user data in JSON file
 
 
