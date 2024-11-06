@@ -17,7 +17,16 @@ This project is a simple FastAPI application with Docker support. It uses a JSON
 * Docker Compose for managing multi-container setups
 
 ## Project Structure
-![structure](C:\Users\Sanket\Downloads\screenshots)
+![](C:\Users\Sanket\Downloads\screenshots)
+
+
+
+
+
+
+
+
+
 
 ## Installation
 To run this project locally, ensure you have the following installed:
