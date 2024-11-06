@@ -6,5 +6,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./app/data:/app/app/data 
+      - ./app/data:/app/app/data
+    environment:
+      - DATA_PATH=/app/app/data
     restart: always 
