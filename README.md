@@ -18,9 +18,8 @@ This project is a simple FastAPI application with Docker support. It uses a JSON
 
 ## Project Structure
 
-''' plain text
-project_root/
-│
+> project_root/
+> │
 ├── app/
 │   ├── main.py           # Entry point for FastAPI application
 │   ├── schema.py         # Defines data schemas and models
@@ -30,4 +29,3 @@ project_root/
 ├── Dockerfile            # Docker setup for the FastAPI application
 ├── docker-compose.yml    # Docker Compose configuration
 └── README.md             # Project documentation
-'''
